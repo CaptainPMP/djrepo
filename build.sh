@@ -13,3 +13,6 @@ python manage.py collectstatic --no-input
 
 # อัปเดตโครงสร้างฐานข้อมูล
 python manage.py migrate
+
+# สร้าง Superuser (ถ้ายังไม่มี)
+python manage.py create_default_superuser
